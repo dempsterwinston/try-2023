@@ -6,7 +6,7 @@ body {
   background-color: #f8f0e5;
 }
 body main {
-  padding: 10px;
+  padding: 2rem 1rem 0 1rem;
 }
 
 h1,
@@ -15,10 +15,18 @@ h2 {
   border: 2px solid #952323;
   text-align: center;
   color: #952323;
+  padding: 1rem;
+  width: 50%;
 }
 /*This makes the h1 and h2 elements' background color to
 beige, border to maroon and text color to maroon*/
+
+h1 {
+  margin: auto;
+  margin-top: 1rem;
+}
 h2 {
+  width: 25%;
   border: 1px solid #952323;
   text-align: center;
 }
@@ -132,6 +140,9 @@ td:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container#footer {
+  margin-top: 1rem;
 }
 .container ul {
   list-style-type: none;
