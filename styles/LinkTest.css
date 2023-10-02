@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #f8f0e5;
+}
+
+header {
+  background-color: #952323;
+  /* padding: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+h1,
+h2 {
+  background-color: beige;
+  border: 2px solid #952323;
+  text-align: center;
+  color: #952323;
+}
+h2 {
+  border: 1px solid #952323;
+  text-align: center;
+}
+.putinbox {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #952323;
+  color: beige;
+}
+
+.container {
+  background-color: #952323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container li {
+  float: left;
+}
+.container li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+}
+.container li a:hover {
+  background-color: #dad4b5;
+}
+
+table,
+th,
+td {
+  border: 2px solid #000000;
+  background-color: beige;
+  border-collapse: collapse;
+  margin: 0;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 50px;
+  border-spacing: 50px;
+}
+
+table {
+  border-spacing: 30px;
+}
+
+iframe {
+  border: none;
+  height: 500px;
+  width: 500px;
+}
+.iframe-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.images {
+  background-image: url("Coolpic.jpg");
+  /* sets a backround image for all of images div class */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* sets the image size to cover all of its content in div images */
+}
+.images img {
+  width: 25vw;
+  /* sets the image size to 25% of viewport size */
+  /* max-width: 100%; */
+  /* sets image size up to original size on full screen */
+}
+
+.form-container form {
+  padding: 25px;
+}
